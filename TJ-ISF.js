@@ -2,9 +2,10 @@ let scanner = new Instascan.Scanner({
     video: document.getElementById('preview')
 });
 scanner.addListener('scan', function(content) {
-    let para = document.getElementById('scanned')
     scanner.stop()
     document.getElementById("outdiv").style.display = "none";
+    document.getElementById("memberInfo").style.display = "block";
+    document.getElementById("cardName").textContent = content;
     para.textContent += `${content}`;
 });
 
