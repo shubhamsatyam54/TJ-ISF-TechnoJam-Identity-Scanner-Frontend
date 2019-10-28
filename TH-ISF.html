@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TJ-ISF</title>
+    <meta name="description" content="QR Code scanner" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+
+    <link rel="stylesheet" href="TJ-ISF.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div style="position:relative;top:+20px;left:0px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+            <p id="mp1">
+                Technojam Ideantity Scanner
+            </p>
+        </div>
+
+        <div id="mainbody">
+            <table class="tsel" border="0" width="100%">
+                <tr>
+                    <td valign="top" align="center" width="50%">
+                        <table class="tsel" border="0">
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <button type="button" class="btn btn-success" id="btn">Scan</button>
+                                    <div id="outdiv">
+                                        <video id="preview"></video>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div id="scanned"></div>
+    <script src="TJ-ISF.js"></script>
+</body>
+
+</html>
