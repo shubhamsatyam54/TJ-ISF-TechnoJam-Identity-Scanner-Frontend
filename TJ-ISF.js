@@ -6,7 +6,6 @@ scanner.addListener('scan', function(content) {
     document.getElementById("outdiv").style.display = "none";
     document.getElementById("memberInfo").style.display = "block";
     document.getElementById("cardName").textContent = content;
-    para.textContent += `${content}`;
 });
 
 document.getElementById("btn").onclick = function() {
