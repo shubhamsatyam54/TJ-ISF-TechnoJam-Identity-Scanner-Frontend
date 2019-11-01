@@ -7,6 +7,15 @@ img {
     border: 0;
 }
 
+#rows {
+    margin-right: -13%;
+    margin-left: -13%;
+}
+
+p {
+    margin: 28px 0 10px !important;
+}
+
 #main {
     margin: 15px auto;
     background: white;
@@ -28,6 +37,10 @@ img {
     display: none;
 }
 
+#github {
+    width: 100%;
+}
+
 #footer {
     background: white;
 }
@@ -37,6 +50,25 @@ img {
     font-size: 35px;
 }
 
+#wellprofile {
+    width: 115%;
+    margin-left: -7%;
+}
+
+#btnAgain {
+    display: none;
+}
+
+#image {
+    max-width: 135%;
+    border-radius: 2%;
+}
+
+.visible {
+    display: block;
+    transition: 1s;
+}
+
 .selector {
     margin: 0;
     padding: 0;
@@ -44,8 +76,21 @@ img {
     margin-bottom: -5px;
 }
 
+.tags {
+    padding: 1px 5px;
+}
+
+#imagecontainer {
+    width: 28%;
+    height: auto;
+}
+
 #btn {
     display: block;
+}
+
+#notFound {
+    display: none;
 }
 
 #outdiv {
